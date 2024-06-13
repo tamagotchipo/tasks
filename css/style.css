@@ -93,10 +93,10 @@ margin-right: 0px;}
     right: 12.33%  ;
     text-align: center;
     display: flex;
-    flex-direction: column; /* Выстраиваем дочерние элементы вертикально */
-    align-items: left; /* Горизонтальное выравнивание по центру */
-    justify-content: flex-start; /* Вертикальное выравнивание с верху */
-    padding: 10px; /* Добавляем немного внутреннего отступа */
+    flex-direction: column;
+    align-items: left; 
+    justify-content: flex-start;
+    padding: 10px; 
   }
   
   .tasks__task--name {
