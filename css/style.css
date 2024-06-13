@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.krona-one-regular {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+:root {
+	--index: calc(1vw + 1vh);
+	--transition: 1.5s cubic-bezier(.05, .5, 0, 1);
+}
+body {
+  text-align: center;
+}
+html {
+  background: url(https://raw.githubusercontent.com/aaaatamagotchi/page1/main/back/BG.png
+) no-repeat center center;
+  min-height: 100%;
+  background-size: cover;
+  font-family: "Krona One";
+  color: white;
+}
+
+.img1 {
+  display: inline;
+  position: relative;
+  right: 155px
+}
+
+
+.Tasks {
+  display: inline;
+  position: fixed;
+  font-size: 40px;
+  bottom: 79.4%;
+  top: 15.24% ; 
+  left: 29.77% ;
+  right: 29.77% ;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: stretch;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 29px;
+  padding: 10px 0px;
+}
+
+.menu__home--text,
+.menu__tasks--text,
+.menu__skins--text,
+.menu__frens--text {
+  font-size: 12px;
+}
+
+
+.button:hover {transform: scale(1.08); transition: 0.32s;}
+.menu__home {opacity: 0.48; transition: 0.64s}
+.menu__home:hover {opacity: 0.90; transition: 0.32s}
+.menu__skins {opacity: 0.48; transition: 0.64s}
+.menu__skins:hover {opacity: 0.90; transition: 0.32s}
+.menu__frens {opacity: 0.48; transition: 0.64s}
+.menu__frens:hover {opacity: 0.90; transition: 0.32s}
+.menu__tasks {opacity: 0.48; transition: 0.64s}
+.menu__tasks:hover {opacity: 0.90; transition: 0.32s}
+.svg__button:hover {transform: scale(1.03); transition: 0.32s;}
+.svg__button {transform: scale(1.00); transition: 0.32s;}
+.coin__energy {margin-left: 0px;
+margin-right: 0px;}
+.playlist {
+  opacity: 0; 
+  transition: opacity 2s ease-in-out; 
+  display: block; 
+}
+.menu { position: fixed;  bottom: 4.84%;  right: 5.12%; left: 5.12%;}
+    .tasks__task{ 
+    width: 75.35%; 
+    height: 8.37% ;
+    position: fixed;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.18);
+    left: 12.33% ;
+    bottom: 68.03% ;
+    top: 23.61% ;
+    right: 12.33%  ;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Выстраиваем дочерние элементы вертикально */
+    align-items: left; /* Горизонтальное выравнивание по центру */
+    justify-content: flex-start; /* Вертикальное выравнивание с верху */
+    padding: 10px; /* Добавляем немного внутреннего отступа */
+  }
+  
+  .tasks__task--name {
+    position: absolute;
+  }
+  .tasks__task--reward2 {
+    display: block;
+    font-size: 11px;}
+  .tasks__task--rewards {
+    left: 12% ;
+    top: 45%;
+    text-align: left;
+    position: absolute;
+  }
+  .tasks__task--name { 
+    display: block;
+    font-size: 16px;
+    position: absolute;
+    top: 10%;
+    left: 6%;}
+  .tasks__task--reward1 {
+    display: block;
+    font-size: 11px;}
+.tasks__task a {
+      display: block;
+      position:absolute;
+      top: 40%;
+      left: 85%;
+    }
+    .tasks__task a svg {opacity: 0.48; transition: 0.64s}
+    .tasks__task a svg:hover {opacity: 0.90; transition: 0.32s}
+
